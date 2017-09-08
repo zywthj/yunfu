@@ -75,6 +75,42 @@ header > ul > li > .reg{
 .content .intro_img {
 	width: 27%;
 }
+footer{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: rgba(0,0,0,.8);
+	position: fixed;
+	bottom: 0;
+}
+footer img{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin: 5px 5px 0 5%;
+}
+footer p{
+	color: #fff;
+	margin-top: -10px;
+}
+footer .s_p {
+	margin-top: -30px;
+}
+footer div {
+	float:right;
+	background:#38c3ec;
+	width:80px;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+	margin:-50px 5% 0 0;
+	color:#fff;
+	border-radius:4px;
+	cursor:pointer;
+}
+footer > div > a{
+	color:#fff;
+}
 
 @media screen and (max-width: 1200px) {
     .content .intro_img {
