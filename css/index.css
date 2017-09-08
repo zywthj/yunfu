@@ -122,8 +122,8 @@ header > ul > li > .reg{
 		width: 250px;
 		height: 100%;
 	}
-    header > ul > li a{
-		font-size: 0.8rem;
+    header > ul > li > a{
+		font-size: 1rem;
 	}
 	.content .intro_img {
 		width: 25%;
@@ -158,7 +158,6 @@ header > ul > li > .reg{
 	}
 	header > ul > li > a{
 		color: #fff;
-		font-size: 1rem;
 	}
 	.content .info_text{
 		width: 60%;
@@ -169,13 +168,13 @@ header > ul > li > .reg{
 }
 @media screen and (max-width: 550px) {
 	header > ul > li > a{
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 	}
 	.content .info_text, .content .intro_img{
 		width: 100%;
 	}
 	.content .info_text b,.content .info_text strong{
-		line-height: 30px;
+		line-height: 25px;
 	}
 	.content .info_text b{
 		font-size: 1rem;
