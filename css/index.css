@@ -156,9 +156,6 @@ header > ul > li > .reg{
 		width: 100%;
 		margin: 0 auto;
 	}
-	header > ul .index {
-		margin-left: 10%;
-	}
 	header > ul > li > a{
 		color: #fff;
 		font-size: 1rem;
@@ -166,7 +163,24 @@ header > ul > li > .reg{
 	.content .info_text{
 		width: 60%;
 	}
-	.content .intro_img {
+	.content .intro_img{
 		width: 35%;
+	}
+}
+@media screen and (max-width: 550px) {
+	header > ul > li > a{
+		font-size: 0.8rem;
+	}
+	.content .info_text, .content .intro_img{
+		width: 100%;
+	}
+	.content .info_text b,.content .info_text strong{
+		line-height: 30px;
+	}
+	.content .info_text b{
+		font-size: 1rem;
+	}
+	.content .info_text strong{
+		font-size: 1.1rem;
 	}
 }
